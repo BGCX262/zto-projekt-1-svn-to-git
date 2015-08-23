@@ -1,0 +1,64 @@
+Treœæ zadania
+
+Zaprojektowaæ szablon kontenera dla struktury graf skierowany (binarna relacja przecizwrotna). 
+
+
+
+
+
+Wierzcho³ek powinien byæ parametrem szablonowym. 
+
+
+W wierzcho³ku przechowywane bêd¹ informacje o zadaniu do wykonania (liczba osób (n) realizuj¹ca zadanie w czasie (h)) oraz unikatowy numer zadania (i). 
+
+Wymagania na³o¿one na klasê wierzcho³ka:
+
+
+- pola przechowuj¹ce informacjê o liczbie osób (liczba ca³kowita) oraz liczbie godzin (liczba zmiennoprzecinkowa),
+
+- konstruktor domyœlny oraz destruktor - gwarancja silna oraz niezg³aszania wyj¹tków,
+
+- konstruktor kopiuj¹cy oraz operator przypisania - gwarancja silna, rzucaj¹ wyj¹tkami z prawdopodobieñstwem p (trzeba to zasymulowaæ),
+
+- zaimplementowaæ metodê PobierzDane(i) - pobranie informacji (n,h) dla zadania o numerze i (np. z bazy danych) - nale¿y zapewniæ gwarancje siln¹ - metoda rzuca wyj¹tkami z prawdopodobieñstwem q (trzeba to zasymulowaæ przez pliki, sens: b³¹d komunikacji z baz¹),
+
+- zaimplementowaæ metodê ZapiszStrukture(G) - wstawienie informacji o grafie (np. do bazy danych) - nale¿y zapewniæ gwarancje siln¹ - metoda rzuca wyj¹tkami z prawdopodobieñstwem q (trzeba to zasymulowaæ przez pliki, sens: b³¹d komunikacji z baz¹),
+
+
+- sytuacje wyj¹tkowe nale¿y zliczaæ (z rozró¿nieniem typów).
+
+
+
+
+
+
+Graf skierowany opisuje zale¿noœci pomiêdzy zadaniami do wykonania. £uk pomiêdzy dwoma zadaniami (a->b) bêdziemy interpretowaæ w nastêpuj¹cy sposób: zadanie b mo¿e siê zacz¹æ dopiero wtedy, gdy zostanie zakoñczone zadanie a. Korzystaj¹c z zaimplementowanych struktur danych nale¿y zrealizowaæ nastêpuj¹ce algorytmy:
+
+losowanie grafu skierowanego acyklicznego o liczbie wierzcho³ków (20,50,100) o 	
+
+znajdowanie œcie¿ki krytycznej (najd³u¿szej œcie¿ki - decyduj¹cej o czasie wykonania wszystkich zadañ) pomiêdzy Ÿród³em oraz ujœciem (mo¿na wykorzystaæ przeszukiwanie BFS),
+
+pod¹¿aj¹c od Ÿród³a szukamy na œcie¿ce krytycznej pierwszych takich dwóch kolejnych wêz³ów (n1,h1) oraz (n2,h2), ¿e sklejenie ich do wêz³a (n,h) zmniejszy d³ugoœæ œcie¿ki krytycznej w nowym digrafie, sklejenie intuicyjnie polega na wykorzystaniu n1+n2 osób do wykonania kolejno zadania pierwszego, póŸniej drugiego, st¹d n = n1+n2 oraz h = (n1*h1+n2*h2)/(n1+n2) (np. (10,6) sklejone z (5,3) daje (15,5)), wszystkie ³uki wchodz¹ce do starych wêz³ów kierujemy do nowego wêz³a (oprócz ³uku pomiêdzy nimi - nie tworzymy pêtli), podobnie wszystkie ³uki wychodz¹ce z któregokolwiek starego wêz³a - wychodz¹ z nowego wêz³a, po sklejeniu powtarzamy szukanie pocz¹wszy od Ÿród³a, zapisujemy graf do bazy (ZapiszStrukture) oraz powtarzamy algorytm znajdowania œcie¿ki krytycznej oraz jej skracania, do momentu gdy znalezionej œcie¿ki krytycznej nie uda nam siê skróciæ.
+
+
+
+
+
+
+
+
+Wymagania
+
+nale¿y wykorzystaæ poznane techniki obiektowe
+
+zapewnienie silnej gwarancji oraz potwarzanie operacji w przypadku jej niewykonania,
+
+przetestowaæ dla wybranych wartoœci p oraz q (ustaliæ sensowny zakres, wartoœci skrajne oraz przyrost),
+
+zastosowaæ techniki leniwego obliczania, ³agodzenia kosztów spodziewanych obliczeñ, przechowywania wyników obliczeñ i innych technik zwiêkszaj¹cych wydajnoœæ,
+
+nale¿y zminimalizowaæ tworzenie obiektów tymczasowych - nale¿y zidentyfikowaæ wszytkie obiekty tymczasowe, do testów wydajnoœciowych warto zrealizowaæ mechanizm zliczania wszystkich tworzonych obiektów tymczasowych,
+
+przeprowadziæ testy wydajnoœciowe,
+
+wnioski z testów zestawiæ w (max. 1 kartka A4) sprawozdaniu.

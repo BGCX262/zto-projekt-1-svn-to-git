@@ -1,0 +1,63 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Task.h" caret="0" fromTop="0" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Utils.h" caret="198" fromTop="10" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Exception.h" caret="274" fromTop="8" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:VertexBase.h" caret="284" fromTop="4" />
+      <File id="d:Miscellaneous Files/f:xutility/l:c!?Program Files?Microsoft Visual Studio 9.0?VC?include?xutility" caret="9103" fromTop="11" />
+      <File id="d:Miscellaneous Files/f:xtree/l:c!?Program Files?Microsoft Visual Studio 9.0?VC?include?xtree" caret="28692" fromTop="7" />
+      <File id="d:Miscellaneous Files/f:map/l:c!?Program Files?Microsoft Visual Studio 9.0?VC?include?map" caret="5244" fromTop="7" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="414" fromTop="9" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="6980" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="6019" fromTop="25" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="4754" fromTop="27" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="4379" fromTop="19" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="109" fromTop="11" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="4865" fromTop="13" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="5023" fromTop="18" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="321" fromTop="12" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Utils.h" caret="198" fromTop="10" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:VertexBase.h" caret="844" fromTop="24" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:VertexBase.h" caret="543" fromTop="10" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="751" fromTop="15" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="2135" fromTop="22" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="1899" fromTop="9" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="1708" fromTop="1" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="1598" fromTop="1" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="7272" fromTop="19" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="7107" fromTop="14" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="2770" fromTop="14" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="2447" fromTop="5" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="2815" fromTop="20" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="2619" fromTop="12" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="5332" fromTop="4" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="10824" fromTop="14" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="5195" fromTop="16" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="5588" fromTop="23" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:Digraph.h" caret="5561" fromTop="22" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="274" fromTop="14" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="463" fromTop="5" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="603" fromTop="10" />
+      <File id="BF2B007F-C284-4994-A2E5-7DD51F08474D/f:main.cpp" caret="773" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+</Configuration>
